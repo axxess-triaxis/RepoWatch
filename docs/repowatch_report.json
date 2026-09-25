@@ -1,0 +1,2082 @@
+{
+  "org": "axxess-triaxis",
+  "generated_at": "2026-09-25T11:15:46.817219+00:00",
+  "repos_scanned": 14,
+  "sprawl": {
+    "org": "axxess-triaxis",
+    "total_active_repos": 10,
+    "over_threshold": false,
+    "near_duplicates": [
+      {
+        "repo_a": "codespaces-react",
+        "repo_b": "codespaces-blank",
+        "similarity": 0.75
+      }
+    ],
+    "error": null
+  },
+  "repos": [
+    {
+      "repo": "RepoWatch",
+      "dependabot": {
+        "repo": "RepoWatch",
+        "findings": [],
+        "access_denied": true,
+        "error": null
+      },
+      "stale_prs": {
+        "repo": "RepoWatch",
+        "stale_prs": [],
+        "error": null
+      },
+      "conflict_merges": {
+        "repo": "RepoWatch",
+        "findings": [],
+        "error": "gh api repos/axxess-triaxis/RepoWatch/commits -X GET -f per_page=100 failed: gh: Git Repository is empty. (HTTP 409)"
+      },
+      "untested_deploys": {
+        "repo": "RepoWatch",
+        "findings": [],
+        "error": "gh api repos/axxess-triaxis/RepoWatch/commits -X GET -f per_page=20 failed: gh: Git Repository is empty. (HTTP 409)"
+      },
+      "pii": {
+        "repo": "RepoWatch",
+        "findings": [],
+        "files_scanned": 0,
+        "error": "gh api repos/axxess-triaxis/RepoWatch/git/trees/main -X GET -f recursive=true failed: gh: Git Repository is empty. (HTTP 409)"
+      }
+    },
+    {
+      "repo": "AXXESSTRIAXIS",
+      "dependabot": {
+        "repo": "AXXESSTRIAXIS",
+        "findings": [
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "image-size",
+            "summary": "image-size: JXL and HEIF parsers allow denial of service through infinite loops",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/123"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "js-yaml",
+            "summary": "js-yaml: maxTotalMergeKeys does not limit CPU use for empty merge sources",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/122"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "critical",
+            "package": "next",
+            "summary": "Next.js: Unauthenticated Remote Code Execution in Image Optimization API when AVIF files are used",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/121"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "critical",
+            "package": "next",
+            "summary": "Next.js: Unauthenticated Remote Code Execution on windows-hosted servers",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/120"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "sharp",
+            "summary": "sharp: Vulnerabilities in libheif: GHSA-g89c-p67h-r497 and GHSA-2jg2-4ch7-h545",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/119"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "smol-toml",
+            "summary": "smol-toml: Denial of Service via malformed TOML documents",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/118"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: Processing Instruction Target Injection Bypasses requireWellFormed",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/117"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: Quadratic-time parsing via the malformed-input recovery path \u2014 `parseElementStartPart` re-scan and `normalize()` adjacent-text merge",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/116"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: Element name injection via createElement() bypasses requireWellFormed",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/115"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "medium",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: Parser silently accepts a not-well-formed end tag whose name is followed by a line break and trailing content",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/114"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: DocType `name` Injection Bypasses requireWellFormed",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/113"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: Quadratic-time attribute deduplication",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/112"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: End-tag Whitespace-Trim Regex ReDoS \u2014 quadratic backtracking in the 0.8.x end-tag parser",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/111"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: Quadratic-memory consumption",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/110"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: Attribute name injection via setAttribute() bypasses requireWellFormed",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/109"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: Creation-time XML Name/QName validation is bypassable via an embedded line terminator, allowing injection on the default serialization path",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/108"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: Processing Instruction Target Injection Bypasses requireWellFormed",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/107"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: Quadratic-memory consumption",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/106"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: HTML raw-text closing-tag case mismatch causes output amplification",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/105"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: Quadratic-time attribute deduplication",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/104"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: DocType `name` Injection Bypasses requireWellFormed",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/103"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: Quadratic-time parsing via the malformed-input recovery path \u2014 `parseElementStartPart` re-scan and `normalize()` adjacent-text merge",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/102"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "medium",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: Parser silently accepts a not-well-formed end tag whose name is followed by a line break and trailing content",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/101"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: requireWellFormed DocType publicId/systemId validation is bypassable via an embedded line terminator",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/100"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "high",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: requireWellFormed element/attribute name validation is bypassable via an embedded line terminator",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/99"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "medium",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: XML fragment injection via invalid EntityReference.nodeName during requireWellFormed serialization",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/98"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "medium",
+            "package": "@xmldom/xmldom",
+            "summary": "xmldom: XML fragment injection via invalid EntityReference.nodeName during requireWellFormed serialization",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/97"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "severity": "medium",
+            "package": "decode-uri-component",
+            "summary": "decode-uri-component: Denial of service via exponential decoding of malformed percent-encoded input",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/security/dependabot/96"
+          }
+        ],
+        "access_denied": false,
+        "error": null
+      },
+      "stale_prs": {
+        "repo": "AXXESSTRIAXIS",
+        "stale_prs": [
+          {
+            "repo": "AXXESSTRIAXIS",
+            "number": 378,
+            "title": "Integrate Callismatic (AI phone/personal secretary agent) as apps/callismatic",
+            "days_open": 11,
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/pull/378"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "number": 377,
+            "title": "chore(deps): bump next from 16.2.12 to 16.3.3",
+            "days_open": 14,
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/pull/377"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "number": 376,
+            "title": "chore(deps): bump pdfjs-dist from 6.2.108 to 6.3.289",
+            "days_open": 18,
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/pull/376"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "number": 375,
+            "title": "chore(deps): bump @capacitor/splash-screen from 7.0.5 to 8.0.2",
+            "days_open": 18,
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/pull/375"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "number": 374,
+            "title": "chore(deps): bump @mui/material from 9.3.1 to 9.4.0",
+            "days_open": 18,
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/pull/374"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "number": 373,
+            "title": "chore(deps): bump mammoth from 1.12.0 to 1.12.2",
+            "days_open": 18,
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/pull/373"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "number": 372,
+            "title": "chore(deps-dev): bump supabase from 2.109.1 to 2.116.0",
+            "days_open": 18,
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/pull/372"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "number": 371,
+            "title": "chore(deps): bump simple-icons from 16.27.1 to 16.29.0",
+            "days_open": 18,
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/pull/371"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "number": 370,
+            "title": "chore(deps): bump react-hook-form from 7.85.0 to 7.87.0",
+            "days_open": 18,
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/pull/370"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "number": 369,
+            "title": "chore(deps-dev): bump vite from 6.4.3 to 8.2.2",
+            "days_open": 18,
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/pull/369"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "number": 366,
+            "title": "docs(readiness): advanced RAG/agentic evaluation, governance/memory/localization roadmap, compliance roadmap",
+            "days_open": 18,
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/pull/366"
+          }
+        ],
+        "error": null
+      },
+      "conflict_merges": {
+        "repo": "AXXESSTRIAXIS",
+        "findings": [
+          {
+            "repo": "AXXESSTRIAXIS",
+            "sha": "529434d5",
+            "message_summary": "Merge remote-tracking branch 'origin/main' into docs/duns-resolved-outcast-rejection",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/commit/529434d5136ebc7f66eb82de2f41875c6ceb9118"
+          }
+        ],
+        "error": null
+      },
+      "untested_deploys": {
+        "repo": "AXXESSTRIAXIS",
+        "findings": [
+          {
+            "repo": "AXXESSTRIAXIS",
+            "sha": "2305807f",
+            "message_summary": "Merge pull request #365 from axxess-triaxis/docs/ledger-72-close-app-store-submitted",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/commit/2305807f131a9f39ffe7ac0ce3b952cd443c7e7c",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "sha": "5c3b3579",
+            "message_summary": "Merge pull request #353 from axxess-triaxis/dependabot/npm_and_yarn/input-otp-1.5.0",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/commit/5c3b3579b66c954d48d0ccd415e358f576f52ad4",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "sha": "2b8be144",
+            "message_summary": "Merge pull request #364 from axxess-triaxis/docs/ledger-72-ios-icon-saga",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/commit/2b8be14453e1853b71a662637a2007e7a1caafcf",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "sha": "ccf8f8d6",
+            "message_summary": "Merge pull request #363 from axxess-triaxis/fix/ios-icon-darwin-arch-and-fatal-failure",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/commit/ccf8f8d62af51aea121da42b9f2e840e87b24f1c",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "sha": "adb3202a",
+            "message_summary": "Merge pull request #356 from axxess-triaxis/dependabot/npm_and_yarn/tailwindcss-4.3.3",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/commit/adb3202a5b3af00c566bdbf9787af0c8e75eee39",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "sha": "77762c76",
+            "message_summary": "Merge pull request #354 from axxess-triaxis/dependabot/npm_and_yarn/vitejs/plugin-react-swc-4.3.3",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/commit/77762c7644047cfa7a573c1027992614951cdb3b",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "sha": "1dc23693",
+            "message_summary": "Merge pull request #355 from axxess-triaxis/dependabot/npm_and_yarn/react-native-safe-area-context-5.9.1",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/commit/1dc2369373c59c4158acaaa977baff56df22e700",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "sha": "0c8ccc48",
+            "message_summary": "Merge pull request #357 from axxess-triaxis/dependabot/npm_and_yarn/mixpanel-browser-2.82.1",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/commit/0c8ccc482afc796e68e1c3778964203730411faf",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "sha": "ac068391",
+            "message_summary": "Merge pull request #359 from axxess-triaxis/dependabot/npm_and_yarn/capacitor/android-8.5.0",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/commit/ac0683912e1a43a1ba6ddc114778cdeb3002c9af",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "sha": "df231cb5",
+            "message_summary": "Merge pull request #360 from axxess-triaxis/dependabot/github_actions/actions/setup-java-6",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/commit/df231cb5faec25d38d48c23588e3ba7caaa2ff57",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "sha": "b5071068",
+            "message_summary": "Merge pull request #361 from axxess-triaxis/dependabot/npm_and_yarn/react-resizable-panels-4.12.3",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/commit/b5071068310ef84dca8ff837458837cba850fcf2",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "sha": "55d9f424",
+            "message_summary": "Merge pull request #352 from axxess-triaxis/dependabot/npm_and_yarn/testing-0d65bea298",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/commit/55d9f424b7e7240e22cfa4ada5a90eb2080e32c0",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "sha": "dd065af9",
+            "message_summary": "Merge pull request #351 from axxess-triaxis/dependabot/npm_and_yarn/next-and-react-e510a9d36a",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/commit/dd065af958cd5d8e82a286ce5ffdebe0f1329813",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "AXXESSTRIAXIS",
+            "sha": "0186c006",
+            "message_summary": "Merge pull request #362 from axxess-triaxis/fix/ios-app-icon-generation",
+            "url": "https://github.com/axxess-triaxis/AXXESSTRIAXIS/commit/0186c0063558ad40a94de4082ae76d9ec44fafb0",
+            "reason": "no_test_run"
+          }
+        ],
+        "error": null
+      },
+      "pii": {
+        "repo": "AXXESSTRIAXIS",
+        "findings": [
+          {
+            "repo": "AXXESSTRIAXIS",
+            "path": ".env.example",
+            "kind": "email",
+            "masked_excerpt": "on*****************ev",
+            "likely_benign": true
+          }
+        ],
+        "files_scanned": 80,
+        "error": null
+      }
+    },
+    {
+      "repo": "GALL-e-LEO",
+      "dependabot": {
+        "repo": "GALL-e-LEO",
+        "findings": [],
+        "access_denied": true,
+        "error": null
+      },
+      "stale_prs": {
+        "repo": "GALL-e-LEO",
+        "stale_prs": [],
+        "error": null
+      },
+      "conflict_merges": {
+        "repo": "GALL-e-LEO",
+        "findings": [],
+        "error": null
+      },
+      "untested_deploys": {
+        "repo": "GALL-e-LEO",
+        "findings": [
+          {
+            "repo": "GALL-e-LEO",
+            "sha": "8357ceea",
+            "message_summary": "Add unified marginal-value strategy; 10-seed sweep settles baseline vs. cascade",
+            "url": "https://github.com/axxess-triaxis/GALL-e-LEO/commit/8357ceeab2def958b882ab3f1c42c560c73349e2",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "GALL-e-LEO",
+            "sha": "d82f03a4",
+            "message_summary": "Set up Agent Observer entry: starter kit + local strategy experiments",
+            "url": "https://github.com/axxess-triaxis/GALL-e-LEO/commit/d82f03a47abaeba2fca85ee22b5aa1acb72879be",
+            "reason": "no_test_run"
+          }
+        ],
+        "error": null
+      },
+      "pii": {
+        "repo": "GALL-e-LEO",
+        "findings": [
+          {
+            "repo": "GALL-e-LEO",
+            "path": "README.md",
+            "kind": "email",
+            "masked_excerpt": "yo*****rg",
+            "likely_benign": true
+          }
+        ],
+        "files_scanned": 80,
+        "error": null
+      }
+    },
+    {
+      "repo": "arc-agi-benchmarking",
+      "dependabot": {
+        "repo": "arc-agi-benchmarking",
+        "findings": [],
+        "access_denied": true,
+        "error": null
+      },
+      "stale_prs": {
+        "repo": "arc-agi-benchmarking",
+        "stale_prs": [],
+        "error": null
+      },
+      "conflict_merges": {
+        "repo": "arc-agi-benchmarking",
+        "findings": [],
+        "error": null
+      },
+      "untested_deploys": {
+        "repo": "arc-agi-benchmarking",
+        "findings": [
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "1188eec0",
+            "message_summary": "Document AGI-3 baseline: 0/7 levels, 48 real actions on ls20",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/1188eec02f6a8556d8602ecc7cd5eb7925776fa6",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "aac54fe7",
+            "message_summary": "Document AGI-2 public demo milestone: 100% (2/2) with groq-allam-2-7b",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/aac54fe7b5213b55f0c581c56d20ac1dcd485fe2",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "d3a73a67",
+            "message_summary": "Add Groq adapter wiring, fix Windows-blocking bugs, tune rate pacing",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/d3a73a67f04d6e9830813d2e0a7176d2dbf482d5",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "28e67d54",
+            "message_summary": "Fix run_configs output deadlock (#101)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/28e67d54b05df5be10281892243c509a42a874f1",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "e3299280",
+            "message_summary": "Capture Chat Completions reasoning content (#100)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/e3299280afe184ee6ceb3c0b9f0fbec1eb126df7",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "5ee371c8",
+            "message_summary": "Log raw API requests and responses with application logs (#99)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/5ee371c88a6e38df13ee97c672403008055082b2",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "0d32b342",
+            "message_summary": "Pace individual provider API requests (#98)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/0d32b3422ccf655697a34ced4aa1b2d88e92db8a",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "3dca7d5b",
+            "message_summary": "Retry null attempts when resuming benchmarks (#96)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/3dca7d5b7d108da40457365880aeecc2939c2c4f",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "f99f4a8a",
+            "message_summary": "Remove checkpoint persistence (#95)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/f99f4a8a2d4a3f053ca13cb9e9b1454b8c8eafa3",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "a1b7e2ea",
+            "message_summary": "Add concurrent multi-config benchmark launcher (#94)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/a1b7e2eab296c8cf6ee3d2e0cab61148eb7738ec",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "08496d2e",
+            "message_summary": "Handle missing Gemini reasoning token counts (#92)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/08496d2ec59340343b23a67f5d96f7b4c4ed0e8f",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "839d1519",
+            "message_summary": "Require explicit API key configuration across providers (#93)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/839d1519e16c552843bff144f323a48f5ef78a3c",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "764bfeae",
+            "message_summary": "Upgrade Google Gen AI SDK (#91)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/764bfeaec270e5809ebe401cd7e1d736ac729cd1",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "688c9be4",
+            "message_summary": "Add custom base_url support for OpenAI-compatible endpoints (#90)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/688c9be4fb270ad7eede09fe8bba6f8187be3bed",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "28af2fe1",
+            "message_summary": "Add Message Batches API support to Anthropic adapter (#89)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/28af2fe169b64942851c2f0ec3c956c24803e014",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "7a32eb7d",
+            "message_summary": "Merge pull request #88 from arcprize/docs/readme-uv-update",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/7a32eb7d43288b3bc26a42e4f31d60bb31a2d0c4",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "0334bec4",
+            "message_summary": "Document uv workflow in README and set requires-python floor",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/0334bec46eecfbeaf0069dcf20c8626d3e264330",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "e8a4d671",
+            "message_summary": "Add Together AI adapter (#87)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/e8a4d67154591887ff98ebd839bba529c744759a",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "7a2efa0f",
+            "message_summary": "Add qwen3-max-thinking via OpenRouter, move kimi-k2.5 to Fireworks (#84)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/7a2efa0f65a55a57bd8da08ef02d826e882cfec8",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-benchmarking",
+            "sha": "073a8d82",
+            "message_summary": "Fix reasoning parameter for OpenAI Responses API",
+            "url": "https://github.com/axxess-triaxis/arc-agi-benchmarking/commit/073a8d827afa29307fd0b63dd6530b864e664adc",
+            "reason": "no_test_run"
+          }
+        ],
+        "error": null
+      },
+      "pii": {
+        "repo": "arc-agi-benchmarking",
+        "findings": [
+          {
+            "repo": "arc-agi-benchmarking",
+            "path": "docs/examples/prompt_example_v2.md",
+            "kind": "credit_card",
+            "masked_excerpt": "0 ********************* 5",
+            "likely_benign": true
+          }
+        ],
+        "files_scanned": 80,
+        "error": null
+      }
+    },
+    {
+      "repo": "ARC-AGI-3-Agents",
+      "dependabot": {
+        "repo": "ARC-AGI-3-Agents",
+        "findings": [],
+        "access_denied": true,
+        "error": null
+      },
+      "stale_prs": {
+        "repo": "ARC-AGI-3-Agents",
+        "stale_prs": [],
+        "error": null
+      },
+      "conflict_merges": {
+        "repo": "ARC-AGI-3-Agents",
+        "findings": [],
+        "error": null
+      },
+      "untested_deploys": {
+        "repo": "ARC-AGI-3-Agents",
+        "findings": [
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "4743e7d0",
+            "message_summary": "Replace three.arcprize.org with arcprize.org (#74)",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/4743e7d0aaae0ded0d98a89a7e282e63564cd58b",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "10213de8",
+            "message_summary": "OpenClaw: add OPENCLAW_USE_CODEX toggle for the Codex harness (#86)",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/10213de83f01df0ef4f0149ee9f8408dcc3772fb",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "f30a2e7b",
+            "message_summary": "Merge pull request #84 from baileywickham/feat/openclaw-agent",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/f30a2e7ba8b1b8099ef23269454713a721286ec4",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "71dfc728",
+            "message_summary": "OpenClaw: drop unused type: ignore on action.reasoning",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/71dfc728d8acd339ac97718818ee1307e3b661b0",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "50063f2a",
+            "message_summary": "OpenClaw: docker enables any-provider model override by default",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/50063f2a42a9d5a53a164efff1f873659819dd93",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "636a13db",
+            "message_summary": "OpenClaw: Rotate session key on each run, allow model override",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/636a13db3d86de102795df7aadf82b58c9055f1f",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "22581875",
+            "message_summary": "OpenClaw: truncate reasoning to 16 KB cap instead of pre-capping thought",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/225818757e60c2933d68062c4b7e3b43d2ba9941",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "10e610bb",
+            "message_summary": "OpenClaw: emit reasoning logs; fix agent reasoning forwarding",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/10e610bbf2250a8e3377b4343c7968b62d517fbd",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "abd7a060",
+            "message_summary": "Add OpenClaw agent template",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/abd7a060221c13ddca60e661151592d359e738d1",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "135f20aa",
+            "message_summary": "fix: update FrameData.score to levels_completed and fix default API endpoint (#61)",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/135f20aaf44f13341ebc425666bf03b5cac58d3c",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "4223d4be",
+            "message_summary": "Merge pull request #59 from arcprize/dw/use_new_wrapper",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/4223d4be831a2cbaa5aa78af3d904ef408ad7a5e",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "b06c432f",
+            "message_summary": "Updating to use the new arg-agi toolkit",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/b06c432f014890077330a65fa90a2242bb75aaf0",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "a0b7e025",
+            "message_summary": "MultiModal LLM Agent",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/a0b7e02588b36df05f72027672bfe2fd97f48e30",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "b2beca20",
+            "message_summary": "Update README.md (#49)",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/b2beca20514103f7cb908e0cc42433189aaee36a",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "60683ab4",
+            "message_summary": "Adding `ACTION7` as valid `GameAction` (#50)",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/60683ab438abcff41f08ed4e2274b5126100ad8e",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "4111109a",
+            "message_summary": "Update structs.py (#48)",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/4111109a6d4470c99c5805adc95ced7144197ac1",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "2381b6ad",
+            "message_summary": "Rename `LangGraph` agent -> `LangGraphThinking` (#47)",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/2381b6adaf54ab0225696b84a5b54f81ab213955",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "5a258aa2",
+            "message_summary": "Rename .env-example to .env.example (#23)",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/5a258aa29332dd624b734dd02b6ec706a70276fe",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "43e8fbc6",
+            "message_summary": "Refactor card_id usage and add scorecard URL on exit (#38)",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/43e8fbc6068df46937227784fc4cd44bcefaa5e8",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "sha": "a648a3eb",
+            "message_summary": "Fix: Corrected AgentOps installation command in README (#44)",
+            "url": "https://github.com/axxess-triaxis/ARC-AGI-3-Agents/commit/a648a3eb84a05bed29aab468e76def20a14165ab",
+            "reason": "no_test_run"
+          }
+        ],
+        "error": null
+      },
+      "pii": {
+        "repo": "ARC-AGI-3-Agents",
+        "findings": [
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "path": "tests/unit/test_recorder.py",
+            "kind": "credit_card",
+            "masked_excerpt": "12**************34",
+            "likely_benign": true
+          },
+          {
+            "repo": "ARC-AGI-3-Agents",
+            "path": "tests/unit/test_recorder.py",
+            "kind": "aadhaar_in",
+            "masked_excerpt": "12********12",
+            "likely_benign": true
+          }
+        ],
+        "files_scanned": 45,
+        "error": null
+      }
+    },
+    {
+      "repo": "CopperNick-Vision",
+      "dependabot": {
+        "repo": "CopperNick-Vision",
+        "findings": [],
+        "access_denied": true,
+        "error": null
+      },
+      "stale_prs": {
+        "repo": "CopperNick-Vision",
+        "stale_prs": [],
+        "error": null
+      },
+      "conflict_merges": {
+        "repo": "CopperNick-Vision",
+        "findings": [],
+        "error": null
+      },
+      "untested_deploys": {
+        "repo": "CopperNick-Vision",
+        "findings": [
+          {
+            "repo": "CopperNick-Vision",
+            "sha": "639124e6",
+            "message_summary": "Document confirmed cold-start and timeout fixes, and the real daily quota cap",
+            "url": "https://github.com/axxess-triaxis/CopperNick-Vision/commit/639124e6ec0833cc1d636021fe64072a814559e3",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "CopperNick-Vision",
+            "sha": "52cf41a2",
+            "message_summary": "Add explicit timeouts to all Gemini calls to prevent indefinite hangs",
+            "url": "https://github.com/axxess-triaxis/CopperNick-Vision/commit/52cf41a279fa7e3073c70a4122d8ae3c9498b293",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "CopperNick-Vision",
+            "sha": "826764c3",
+            "message_summary": "Fix cold-start latency: bundle IBTrACS CSV instead of downloading it live",
+            "url": "https://github.com/axxess-triaxis/CopperNick-Vision/commit/826764c3f9923e498013abbf82391fbf6316f9bd",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "CopperNick-Vision",
+            "sha": "86638ea4",
+            "message_summary": "Document first successful live Gemini call and the slow cold-start issue",
+            "url": "https://github.com/axxess-triaxis/CopperNick-Vision/commit/86638ea4e78ae3aaf6e5baeec5947210046b01fa",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "CopperNick-Vision",
+            "sha": "cd0f8724",
+            "message_summary": "Fix crash on IBTrACS whitespace-only missing values",
+            "url": "https://github.com/axxess-triaxis/CopperNick-Vision/commit/cd0f87244d93eafc05d0effb71924cf05bfa31d3",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "CopperNick-Vision",
+            "sha": "9032b6b2",
+            "message_summary": "Rename to CopperNick Vision; fully revise README for accuracy",
+            "url": "https://github.com/axxess-triaxis/CopperNick-Vision/commit/9032b6b2e90422db38db9c702d3d04422fb063b9",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "CopperNick-Vision",
+            "sha": "efc97d63",
+            "message_summary": "Add Sky Watch subsystem: passive day/night sky scanning, camera ingestion, RAG, and ontology",
+            "url": "https://github.com/axxess-triaxis/CopperNick-Vision/commit/efc97d63f04b07105a9ac2282960a434d22c78e8",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "CopperNick-Vision",
+            "sha": "33e5f277",
+            "message_summary": "Note Cloud Run service is now public",
+            "url": "https://github.com/axxess-triaxis/CopperNick-Vision/commit/33e5f2779e6cbd3a559dc68c9b3c63d7138e38c2",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "CopperNick-Vision",
+            "sha": "8fc5f864",
+            "message_summary": "Update README status: Cloud Run deployed, Earth Engine verified live",
+            "url": "https://github.com/axxess-triaxis/CopperNick-Vision/commit/8fc5f8644f7071bbf15e06b6a25321f5ba00e20f",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "CopperNick-Vision",
+            "sha": "e4c57c69",
+            "message_summary": "Add Cloud Run deployment config",
+            "url": "https://github.com/axxess-triaxis/CopperNick-Vision/commit/e4c57c69c10e6e0b7b7f54d29649fdf690409ddc",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "CopperNick-Vision",
+            "sha": "7dd9e22f",
+            "message_summary": "Scaffold CopperNick as a cyclone/infrastructure vulnerability forecaster",
+            "url": "https://github.com/axxess-triaxis/CopperNick-Vision/commit/7dd9e22fdd4e76ebc3a26b27d687949e0c5e18e4",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "CopperNick-Vision",
+            "sha": "c3c60160",
+            "message_summary": "Initial scaffold for CopperNick",
+            "url": "https://github.com/axxess-triaxis/CopperNick-Vision/commit/c3c6016032c11ff7fd86803ee50d69903081e609",
+            "reason": "no_test_run"
+          }
+        ],
+        "error": null
+      },
+      "pii": {
+        "repo": "CopperNick-Vision",
+        "findings": [
+          {
+            "repo": "CopperNick-Vision",
+            "path": "README.md",
+            "kind": "aadhaar_in",
+            "masked_excerpt": "22********08",
+            "likely_benign": true
+          },
+          {
+            "repo": "CopperNick-Vision",
+            "path": "src/coppernick/web.py",
+            "kind": "aadhaar_in",
+            "masked_excerpt": "22********08",
+            "likely_benign": false
+          }
+        ],
+        "files_scanned": 42,
+        "error": null
+      }
+    },
+    {
+      "repo": "Omnidamus",
+      "dependabot": {
+        "repo": "Omnidamus",
+        "findings": [],
+        "access_denied": true,
+        "error": null
+      },
+      "stale_prs": {
+        "repo": "Omnidamus",
+        "stale_prs": [],
+        "error": null
+      },
+      "conflict_merges": {
+        "repo": "Omnidamus",
+        "findings": [],
+        "error": null
+      },
+      "untested_deploys": {
+        "repo": "Omnidamus",
+        "findings": [
+          {
+            "repo": "Omnidamus",
+            "sha": "f454fba9",
+            "message_summary": "Initial scaffold for Omnidamus",
+            "url": "https://github.com/axxess-triaxis/Omnidamus/commit/f454fba9a7e4e97d8cc3ecbb5251047715845e2c",
+            "reason": "no_test_run"
+          }
+        ],
+        "error": null
+      },
+      "pii": {
+        "repo": "Omnidamus",
+        "findings": [
+          {
+            "repo": "Omnidamus",
+            "path": "tests/test_channels.py",
+            "kind": "email",
+            "masked_excerpt": "se**************om",
+            "likely_benign": true
+          },
+          {
+            "repo": "Omnidamus",
+            "path": "tests/test_channels.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******11",
+            "likely_benign": true
+          },
+          {
+            "repo": "Omnidamus",
+            "path": "tests/test_router.py",
+            "kind": "email",
+            "masked_excerpt": "to**********om",
+            "likely_benign": true
+          },
+          {
+            "repo": "Omnidamus",
+            "path": "tests/test_router.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******11",
+            "likely_benign": true
+          }
+        ],
+        "files_scanned": 20,
+        "error": null
+      }
+    },
+    {
+      "repo": "callismatic",
+      "dependabot": {
+        "repo": "callismatic",
+        "findings": [],
+        "access_denied": true,
+        "error": null
+      },
+      "stale_prs": {
+        "repo": "callismatic",
+        "stale_prs": [],
+        "error": null
+      },
+      "conflict_merges": {
+        "repo": "callismatic",
+        "findings": [],
+        "error": null
+      },
+      "untested_deploys": {
+        "repo": "callismatic",
+        "findings": [
+          {
+            "repo": "callismatic",
+            "sha": "550a7684",
+            "message_summary": "docs: add email as near-term roadmap",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/550a7684d10460e5de877ac1a2c79a9e7ed7fa5c",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "86c12a02",
+            "message_summary": "docs: reframe README as personal secretary first, phone operator second",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/86c12a02a645690b7589e65a402c02680bd48777",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "fb638216",
+            "message_summary": "docs: fully update README -- product positioning, dashboard, hackathon status",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/fb638216db4c802708cf3d57ed72e552c7d9d497",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "8d8151cb",
+            "message_summary": "feat(web): two-column dashboard layout, per a real Figma design",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/8d8151cb350aeab590d26d4189d14b46baed4396",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "a16570aa",
+            "message_summary": "docs: document Nebius model routing and confirm MCP server is live on Lambda",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/a16570aa1e72e47ddeeff536663aae12fade472f",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "3da44f0c",
+            "message_summary": "feat: wire Nebius Token Factory as primary model with Bedrock fallback",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/3da44f0c29f87e20a22788e1437938fc934ffb63",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "c7d569a2",
+            "message_summary": "fix(mcp): the real cause of the /mcp/ redirect loop -- AWS strips trailing slashes",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/c7d569a21dbc29fd5fca831d1ecad4fe65dae7e9",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "a8ce2732",
+            "message_summary": "fix(mcp): DNS-rebinding Host-header check rejected the real Lambda URL",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/a8ce2732ad6a0d7b28a753336648b0c6129223d7",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "2b799b79",
+            "message_summary": "fix(mcp): two real bugs found redeploying the MCP server to Lambda",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/2b799b799d4b46e2339c6e9d91d8b28145f46837",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "da9f932b",
+            "message_summary": "feat: real MCP server over Streamable HTTP, for Alexa+ / Amazon Developer Hackathon",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/da9f932b75581b022730b079e74076a6b3d71aed",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "e18e4d6a",
+            "message_summary": "docs: mark Agents for Humans and Call-E submissions closed",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/e18e4d6a56c2ea77cd2d54940204258999c3a75e",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "5a9d8d66",
+            "message_summary": "fix(triage): a rejected/failed CALL-E callback crashed the whole batch",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/5a9d8d662a1ad09e50872726eb39a496424aa039",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "ed34dc13",
+            "message_summary": "docs: fill in AWS Builder ID for Agents for Humans submission",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/ed34dc1303bc5a239a2fe3ebdbf9355311b5f9a9",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "c53bd1d9",
+            "message_summary": "docs: update Devpost submission text with full stack, HF Space, AMD roadmap",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/c53bd1d997f871aafefa083e04e95fd5c0119f79",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "128ae366",
+            "message_summary": "docs: describe full personal/phone secretary stack, add AMD+Kubernetes roadmap",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/128ae36608ef8d8278f1cb6fead539afc4e19b32",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "b0fbe62b",
+            "message_summary": "README: attribute Callismatic as part of AXXESS TRIaxis / Triaxis Ventures",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/b0fbe62be79424ca4b0e3cdbb39ec54c2bc51d3a",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "ad5f266c",
+            "message_summary": "Rewrite README: problem statement, detailed schema, tech stack, business case",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/ad5f266c608a1b2a80b2cfae1cd6938ec17be538",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "35f51b79",
+            "message_summary": "Correct overstated WhatsApp claims: receiver code is verified, Meta's subscription is not",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/35f51b792a4201e906947fda67d161ca12f35bc8",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "517f906e",
+            "message_summary": "Document the live deployment; close AssemblyAI's Application URL gap",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/517f906e941847698ae3376d4cfaf62b190c1ea6",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "callismatic",
+            "sha": "b0e64ec1",
+            "message_summary": "Deploy Callismatic to AWS Lambda: dashboard, WhatsApp webhook, scoped API",
+            "url": "https://github.com/axxess-triaxis/callismatic/commit/b0e64ec124a42a7e72118906c5db41948cbe3a51",
+            "reason": "no_test_run"
+          }
+        ],
+        "error": null
+      },
+      "pii": {
+        "repo": "callismatic",
+        "findings": [
+          {
+            "repo": "callismatic",
+            "path": "README.md",
+            "kind": "phone_us",
+            "masked_excerpt": "+1********11",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "README.md",
+            "kind": "aadhaar_in",
+            "masked_excerpt": "22********86",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "demo/generate_samples.py",
+            "kind": "phone_us",
+            "masked_excerpt": "+1********11",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "demo/live_callback_test.py",
+            "kind": "phone_us",
+            "masked_excerpt": "+1********55",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "demo/mcp_client_test.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******11",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "docs/SUBMISSION.md",
+            "kind": "email",
+            "masked_excerpt": "of************************om",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "src/callismatic/mcp_server.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******67",
+            "likely_benign": false
+          },
+          {
+            "repo": "callismatic",
+            "path": "tests/test_call_router.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******67",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "tests/test_call_router.py",
+            "kind": "aadhaar_in",
+            "masked_excerpt": "91********63",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "tests/test_carrier_intel.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******11",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "tests/test_carrier_intel.py",
+            "kind": "aadhaar_in",
+            "masked_excerpt": "91********63",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "tests/test_corrections.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******11",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "tests/test_crm_sheets.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******11",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "tests/test_digest_report.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******11",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "tests/test_mcp_server.py",
+            "kind": "phone_us",
+            "masked_excerpt": "11******11",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "tests/test_reminders.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******11",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "tests/test_tools.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******11",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "tests/test_triage.py",
+            "kind": "phone_us",
+            "masked_excerpt": "+1********11",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "tests/test_web.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******11",
+            "likely_benign": true
+          },
+          {
+            "repo": "callismatic",
+            "path": "tests/test_whatsapp_webhook.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******11",
+            "likely_benign": true
+          }
+        ],
+        "files_scanned": 59,
+        "error": null
+      }
+    },
+    {
+      "repo": "awesome-phone-call-agents",
+      "dependabot": {
+        "repo": "awesome-phone-call-agents",
+        "findings": [],
+        "access_denied": true,
+        "error": null
+      },
+      "stale_prs": {
+        "repo": "awesome-phone-call-agents",
+        "stale_prs": [],
+        "error": null
+      },
+      "conflict_merges": {
+        "repo": "awesome-phone-call-agents",
+        "findings": [],
+        "error": null
+      },
+      "untested_deploys": {
+        "repo": "awesome-phone-call-agents",
+        "findings": [
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "46be3d16",
+            "message_summary": "feat(holdfast): add IVR navigation and hold-persistence skill (#442)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/46be3d16a2298a6743da9e4376834cfca464e7a5",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "1bd29f07",
+            "message_summary": "feat(capacityline): add supply recovery desk (#129)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/1bd29f07db888fd78cf995a20d248981f461c64a",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "21650d6c",
+            "message_summary": "feat: emergency-dispatch-relay skill \u2014 relay a human-confirmed dispatch decision, return a tri-state result (#458)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/21650d6cdb48205f81100e2011ca5cebe8393325",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "4d8489b0",
+            "message_summary": "feat: add ResolveCall - Autonomous Operational Recovery Telephony (#431)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/4d8489b07b06c39b47d540fd13361ac4d41f86bd",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "18cfd533",
+            "message_summary": "feat(apps): add grounded restaurant enquiry callback (#430)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/18cfd533e4f02f3c5d3d25c8d4f85d5c0c08f44b",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "4977af50",
+            "message_summary": "feat(apps): add partfinder ai app (#277)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/4977af50da47d7b674b49851d54ea63f0a0b59f5",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "d73fd915",
+            "message_summary": "Add RELAY - Autonomous Business Operations Agent (#273)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/d73fd9155d3708d36bce84c8424ba371dd597fa3",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "28e4d9d4",
+            "message_summary": "feat: add Kol verified healthcare payer-call workflow (#453)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/28e4d9d442a4a354573a277560c7a7c227ea410c",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "d1a9e7ea",
+            "message_summary": "feat(apps): add muster phone-to-report demo (#439)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/d1a9e7eac62983222055ec4cbe6de43b6ae404f4",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "41b545c0",
+            "message_summary": "feat(apps): add sticker, a pharmacy cash-price survey priced against CMS NADAC (#404)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/41b545c00da47345a4081c162d4bbda075ebebce",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "52a69760",
+            "message_summary": "feat(apps): add CallProof authority-aware verification app (#457)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/52a69760f8127d8a2fb2cb4630a2387b5de1eb87",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "025b2db3",
+            "message_summary": "feat(ringfence): fraud-verification calls for flagged bank transactions (#444)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/025b2db32fd5977f81e9a1cf64084bba3765af8c",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "c7398360",
+            "message_summary": "feat: add RolloffScope dumpster fee comparison app (#441)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/c7398360b7921de06bcf733b9c3fc218597d03a0",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "224989c2",
+            "message_summary": "feat(apps): add post-discharge-check catalog entry (#282)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/224989c2faf9599233283545c1571272686c6909",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "f46b3bfd",
+            "message_summary": "docs: add VERIFY listing-verification app (#207)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/f46b3bfdc42b877f708ef5fd42fda1238a1d6255",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "493b5b23",
+            "message_summary": "feat(apps): add CareLoop AI (#383)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/493b5b23827059f07030bd073ec70edb84f17b45",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "cb965592",
+            "message_summary": "feat(apps): add speakeasy multilingual phone caller (#449)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/cb96559220c4096c91e13880823e5a83aff45a25",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "0f377690",
+            "message_summary": "feat(apps): add Rescue Relay (#438)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/0f377690550e4e0dd26a9e191ff934c48921b960",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "ff4e54ed",
+            "message_summary": "feat(skills): add logistics-exception dock recovery skill (#436)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/ff4e54ede75b66c8f0ea2bfcc574b6353391eed9",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "sha": "f7a3e12c",
+            "message_summary": "feat(holdline): add evidence-gated batch enquiry skill (#353)",
+            "url": "https://github.com/axxess-triaxis/awesome-phone-call-agents/commit/f7a3e12c9bd60c92ee2fed0de99d519420ed1d67",
+            "reason": "no_test_run"
+          }
+        ],
+        "error": null
+      },
+      "pii": {
+        "repo": "awesome-phone-call-agents",
+        "findings": [
+          {
+            "repo": "awesome-phone-call-agents",
+            "path": "apps/python/accessline/examples/demo_fictional_venue.json",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******00",
+            "likely_benign": true
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "path": "apps/python/accessline/tests/test_accessline.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******99",
+            "likely_benign": true
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "path": "apps/python/accessline/tests/test_accessline_calle_api.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******99",
+            "likely_benign": true
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "path": "apps/python/accessline/tests/test_accessline_security.py",
+            "kind": "email",
+            "masked_excerpt": "pa******************om",
+            "likely_benign": true
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "path": "apps/python/accessline/tests/test_accessline_security.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******99",
+            "likely_benign": true
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "path": "apps/python/aftercare/.env.example",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******00",
+            "likely_benign": true
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "path": "apps/python/aftercare/README.md",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******00",
+            "likely_benign": true
+          },
+          {
+            "repo": "awesome-phone-call-agents",
+            "path": "apps/python/aftercare/app/models/schemas.py",
+            "kind": "phone_us",
+            "masked_excerpt": "15*******00",
+            "likely_benign": false
+          }
+        ],
+        "files_scanned": 80,
+        "error": null
+      }
+    },
+    {
+      "repo": "Picketty",
+      "dependabot": {
+        "repo": "Picketty",
+        "findings": [],
+        "access_denied": true,
+        "error": null
+      },
+      "stale_prs": {
+        "repo": "Picketty",
+        "stale_prs": [],
+        "error": null
+      },
+      "conflict_merges": {
+        "repo": "Picketty",
+        "findings": [],
+        "error": null
+      },
+      "untested_deploys": {
+        "repo": "Picketty",
+        "findings": [
+          {
+            "repo": "Picketty",
+            "sha": "f759eebe",
+            "message_summary": "Full voice-to-action pipeline verified live: real speech, 3 real bugs fixed",
+            "url": "https://github.com/axxess-triaxis/Picketty/commit/f759eebe89d21199e4b3a0a17bbdfa6113319bba",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "Picketty",
+            "sha": "10863d05",
+            "message_summary": "Close out fork/knife investigation: reposition + rotation sweep, final scope decision",
+            "url": "https://github.com/axxess-triaxis/Picketty/commit/10863d05dd581005966adf4d7c8b0d97d20961c4",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "Picketty",
+            "sha": "ff5ee575",
+            "message_summary": "First live end-to-end demo run: fix three Groq issues + one planning issue",
+            "url": "https://github.com/axxess-triaxis/Picketty/commit/ff5ee5757a9dd318bf7a84efc71215595735852f",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "Picketty",
+            "sha": "af7216c5",
+            "message_summary": "Switch VLA planner from Anthropic to Groq (free tier, vision-capable)",
+            "url": "https://github.com/axxess-triaxis/Picketty/commit/af7216c584d9ad9a2af7b0b6640dfb0177bd10d8",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "Picketty",
+            "sha": "efcd2714",
+            "message_summary": "Alternative contact strategies: handle-end tested infeasible, scooping",
+            "url": "https://github.com/axxess-triaxis/Picketty/commit/efcd2714c29fe88e2cfd038c8a6b028c3f5ebb85",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "Picketty",
+            "sha": "42f8c637",
+            "message_summary": "Translation-only final descent in pick_oriented, closing the reach gap",
+            "url": "https://github.com/axxess-triaxis/Picketty/commit/42f8c637d3c4eba02f8e30b27a25dc56eabd1a94",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "Picketty",
+            "sha": "472c28aa",
+            "message_summary": "Bounded spatial grasp-position search; experimentally rule out horizontal repositioning",
+            "url": "https://github.com/axxess-triaxis/Picketty/commit/472c28aaac8a10a98f0e25d16382315e3c104cf9",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "Picketty",
+            "sha": "7d1a3ef3",
+            "message_summary": "Finger-height-aware grasp scoring; root-caused the remaining fork failure",
+            "url": "https://github.com/axxess-triaxis/Picketty/commit/7d1a3ef3eb29904441aa7ffb8e77c050c539f0c7",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "Picketty",
+            "sha": "01f4988b",
+            "message_summary": "Grasp reliability: warm-started IK + TCP-offset fix + object settling",
+            "url": "https://github.com/axxess-triaxis/Picketty/commit/01f4988be011d6fb15d19eaef5b29c9f7f582693",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "Picketty",
+            "sha": "72edcc4e",
+            "message_summary": "Orientation-aware 6-DOF grasp pipeline for elongated objects (fork/knife)",
+            "url": "https://github.com/axxess-triaxis/Picketty/commit/72edcc4e7f987904c2542684fc2bced888c08d97",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "Picketty",
+            "sha": "d9a3a619",
+            "message_summary": "Initial scaffold: bimanual ALOHA dinner-table sim + VLA planner + voice bonus track",
+            "url": "https://github.com/axxess-triaxis/Picketty/commit/d9a3a6192eabcc1eace7fecf3ce263f4d3cdc066",
+            "reason": "no_test_run"
+          }
+        ],
+        "error": null
+      },
+      "pii": {
+        "repo": "Picketty",
+        "findings": [
+          {
+            "repo": "Picketty",
+            "path": "assets/mujoco_menagerie/aloha/aloha.xml",
+            "kind": "credit_card",
+            "masked_excerpt": "70*********** 0",
+            "likely_benign": false
+          },
+          {
+            "repo": "Picketty",
+            "path": "assets/mujoco_menagerie/aloha/mjx_aloha.patch",
+            "kind": "credit_card",
+            "masked_excerpt": "70*********** 0",
+            "likely_benign": false
+          },
+          {
+            "repo": "Picketty",
+            "path": "assets/mujoco_menagerie/tutorial.ipynb",
+            "kind": "credit_card",
+            "masked_excerpt": "16*********49",
+            "likely_benign": false
+          }
+        ],
+        "files_scanned": 70,
+        "error": null
+      }
+    },
+    {
+      "repo": "arc-agi-3-benchmarking",
+      "dependabot": {
+        "repo": "arc-agi-3-benchmarking",
+        "findings": [],
+        "access_denied": true,
+        "error": null
+      },
+      "stale_prs": {
+        "repo": "arc-agi-3-benchmarking",
+        "stale_prs": [],
+        "error": null
+      },
+      "conflict_merges": {
+        "repo": "arc-agi-3-benchmarking",
+        "findings": [],
+        "error": null
+      },
+      "untested_deploys": {
+        "repo": "arc-agi-3-benchmarking",
+        "findings": [
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "1aa78da7",
+            "message_summary": "Add provider-neutral continuous conversation state (#33)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/1aa78da7e3058e0ead572ede7cd97065d1e5befc",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "86d72170",
+            "message_summary": "Improve action metadata truncation (#30)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/86d72170ce3155551712a9fafd290bab471d6eee",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "e3f34fe2",
+            "message_summary": "Parse structured action responses (#29)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/e3f34fe200beabc06338c98a008b2f36498a2db6",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "8437ac16",
+            "message_summary": "EB / Truncate reasoning (#27)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/8437ac16e2186b2989b4a0f3d9047eeb3ccd8f11",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "dc814bed",
+            "message_summary": "EB/stale cookie and exit reason (#26)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/dc814bedbc0d694b25cc5dd9e546a6a249aef24e",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "47492826",
+            "message_summary": "Eb/stale cookie fix (#25)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/474928260d048a5c8fc470ef203e5f1326c499b6",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "e9cbd56f",
+            "message_summary": "Add configurable per-run wall-clock timeout (default 12h) (#24)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/e9cbd56fd8784a505e9dd26169e800a111db7deb",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "eab8d063",
+            "message_summary": "feat: add server-managed OpenAI Responses state via previous_response_id (#23)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/eab8d0637d1b8db6316c6010293cb54be140964a",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "0138a6ae",
+            "message_summary": "Update default system prompt (#21)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/0138a6aed609326a482783189ade4dda15b6a83a",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "3286db31",
+            "message_summary": "Add Google Gemini adapter (#20)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/3286db31cc02de0a2e377b6f282d58fb17ebc12e",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "1f4a8ccb",
+            "message_summary": "Add Anthropic streaming support (#18)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/1f4a8ccb3c233c9cf4984e589fffca9f4d7d9207",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "59432388",
+            "message_summary": "Add OpenAI Responses API support with runtime adapter layer (#17)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/594323884966c3eef26a1290a59d71ce3aa6b01e",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "c5ebcc47",
+            "message_summary": "feature/arc_agi_3_agents (#16)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/c5ebcc47c244d64220d62ceeaef6054da7eee3d7",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "048302f1",
+            "message_summary": "test: fixed test signature (#13)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/048302f177ef932a1a6e44abc696e417a9f77bcf",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "166f2da4",
+            "message_summary": "fix: sanitize filenames prior to saving (#12)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/166f2da491a79eab89023426138df60613a96079",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "d6e5d89f",
+            "message_summary": "Release Rework (#11)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/d6e5d89fffa615bb49048414373fbb6161d98193",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "6cf584d8",
+            "message_summary": "Adding OpenRouter configs for: (#8)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/6cf584d832bcd4f258ea3b1685d1d4f730005bc9",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "a370d5b4",
+            "message_summary": "Fix: change behavior of max_actions and num_plays behavior (#7)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/a370d5b4eed7876bfd207206e09f2aa9563a3ef0",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "1951b3e8",
+            "message_summary": "Feature: Harness Flexibility Improvements (#3)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/1951b3e8299916b55bb16808b7222d3250ee0e40",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "sha": "86e35055",
+            "message_summary": "feature: First pass on dockerization (#5)",
+            "url": "https://github.com/axxess-triaxis/arc-agi-3-benchmarking/commit/86e3505591f336e9886544d4bcd72ee5e8e8fa7b",
+            "reason": "no_test_run"
+          }
+        ],
+        "error": null
+      },
+      "pii": {
+        "repo": "arc-agi-3-benchmarking",
+        "findings": [
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "path": "tests/unit/test_recorder.py",
+            "kind": "credit_card",
+            "masked_excerpt": "12**************34",
+            "likely_benign": true
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "path": "tests/unit/test_recorder.py",
+            "kind": "aadhaar_in",
+            "masked_excerpt": "12********12",
+            "likely_benign": true
+          },
+          {
+            "repo": "arc-agi-3-benchmarking",
+            "path": "tests/unit/test_runtime_models.py",
+            "kind": "phone_us",
+            "masked_excerpt": "17******42",
+            "likely_benign": true
+          }
+        ],
+        "files_scanned": 49,
+        "error": null
+      }
+    },
+    {
+      "repo": "triaxis-ventures",
+      "dependabot": {
+        "repo": "triaxis-ventures",
+        "findings": [],
+        "access_denied": true,
+        "error": null
+      },
+      "stale_prs": {
+        "repo": "triaxis-ventures",
+        "stale_prs": [],
+        "error": null
+      },
+      "conflict_merges": {
+        "repo": "triaxis-ventures",
+        "findings": [],
+        "error": null
+      },
+      "untested_deploys": {
+        "repo": "triaxis-ventures",
+        "findings": [
+          {
+            "repo": "triaxis-ventures",
+            "sha": "73c41ae5",
+            "message_summary": "Initial commit",
+            "url": "https://github.com/axxess-triaxis/triaxis-ventures/commit/73c41ae589acc84a0f7a3114579829ff627157cd",
+            "reason": "no_test_run"
+          }
+        ],
+        "error": null
+      },
+      "pii": {
+        "repo": "triaxis-ventures",
+        "findings": [],
+        "files_scanned": 25,
+        "error": null
+      }
+    },
+    {
+      "repo": "codespaces-react",
+      "dependabot": {
+        "repo": "codespaces-react",
+        "findings": [],
+        "access_denied": true,
+        "error": null
+      },
+      "stale_prs": {
+        "repo": "codespaces-react",
+        "stale_prs": [],
+        "error": null
+      },
+      "conflict_merges": {
+        "repo": "codespaces-react",
+        "findings": [],
+        "error": null
+      },
+      "untested_deploys": {
+        "repo": "codespaces-react",
+        "findings": [
+          {
+            "repo": "codespaces-react",
+            "sha": "55cc277f",
+            "message_summary": "Initial commit",
+            "url": "https://github.com/axxess-triaxis/codespaces-react/commit/55cc277f1ea55fa35e2a7613adfc794a12b6a83c",
+            "reason": "no_test_run"
+          }
+        ],
+        "error": null
+      },
+      "pii": {
+        "repo": "codespaces-react",
+        "findings": [],
+        "files_scanned": 19,
+        "error": null
+      }
+    },
+    {
+      "repo": "codespaces-blank",
+      "dependabot": {
+        "repo": "codespaces-blank",
+        "findings": [],
+        "access_denied": true,
+        "error": null
+      },
+      "stale_prs": {
+        "repo": "codespaces-blank",
+        "stale_prs": [],
+        "error": null
+      },
+      "conflict_merges": {
+        "repo": "codespaces-blank",
+        "findings": [],
+        "error": null
+      },
+      "untested_deploys": {
+        "repo": "codespaces-blank",
+        "findings": [
+          {
+            "repo": "codespaces-blank",
+            "sha": "0dff3860",
+            "message_summary": "Merge pull request #1 from axxess-triaxis/codespace-didactic-space-invention-jrrr9xv57wjv3pjp4",
+            "url": "https://github.com/axxess-triaxis/codespaces-blank/commit/0dff3860a78eaf785bc8b7bbc55bab58045c82c0",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "codespaces-blank",
+            "sha": "1b833533",
+            "message_summary": "first commit",
+            "url": "https://github.com/axxess-triaxis/codespaces-blank/commit/1b833533084d5b9e7df4f09e98674b2b6b930ae2",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "codespaces-blank",
+            "sha": "b9637e97",
+            "message_summary": "first commit",
+            "url": "https://github.com/axxess-triaxis/codespaces-blank/commit/b9637e9797c1bac35ebc1a4cbda2cd9a9e7d0127",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "codespaces-blank",
+            "sha": "6e938242",
+            "message_summary": "first commit",
+            "url": "https://github.com/axxess-triaxis/codespaces-blank/commit/6e9382427a8b8bbdad49326a32fa7b3f1f9def63",
+            "reason": "no_test_run"
+          }
+        ],
+        "error": null
+      },
+      "pii": {
+        "repo": "codespaces-blank",
+        "findings": [],
+        "files_scanned": 5,
+        "error": null
+      }
+    }
+  ]
+}
