@@ -68,6 +68,8 @@ def write_html(report: dict, out_path: Path) -> None:
         dep = r["dependabot"]
         if dep.get("access_denied"):
             findings.append('<li class="warn">Dependabot: no read access (token scope)</li>')
+        elif dep.get("dependabot_disabled"):
+            findings.append('<li class="warn">Dependabot: alerts not enabled for this repo</li>')
         elif dep.get("findings"):
             findings.append(f'<li class="bad">Dependabot: {len(dep["findings"])} open alert(s)</li>')
 
