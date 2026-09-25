@@ -1,0 +1,19 @@
+[project]
+name = "repowatch"
+version = "0.1.0"
+description = "AI-native engineering governance auditor -- catches the failure modes AI-assisted teams actually hit: unreviewed vulnerabilities, untested deploys, stale PRs, repo sprawl, exposed PII, and AI-authored decisions shipped without human sign-off."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+repowatch = "repowatch.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
