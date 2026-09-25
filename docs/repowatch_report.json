@@ -1,6 +1,6 @@
 {
   "org": "axxess-triaxis",
-  "generated_at": "2026-09-25T11:15:46.817219+00:00",
+  "generated_at": "2026-09-25T11:28:54.581126+00:00",
   "repos_scanned": 14,
   "sprawl": {
     "org": "axxess-triaxis",
@@ -21,7 +21,8 @@
       "dependabot": {
         "repo": "RepoWatch",
         "findings": [],
-        "access_denied": true,
+        "access_denied": false,
+        "dependabot_disabled": true,
         "error": null
       },
       "stale_prs": {
@@ -32,18 +33,41 @@
       "conflict_merges": {
         "repo": "RepoWatch",
         "findings": [],
-        "error": "gh api repos/axxess-triaxis/RepoWatch/commits -X GET -f per_page=100 failed: gh: Git Repository is empty. (HTTP 409)"
+        "error": null
       },
       "untested_deploys": {
         "repo": "RepoWatch",
-        "findings": [],
-        "error": "gh api repos/axxess-triaxis/RepoWatch/commits -X GET -f per_page=20 failed: gh: Git Repository is empty. (HTTP 409)"
+        "findings": [
+          {
+            "repo": "RepoWatch",
+            "sha": "bd2ddb80",
+            "message_summary": "Add real dogfooded audit report and findings writeup",
+            "url": "https://github.com/axxess-triaxis/RepoWatch/commit/bd2ddb809788d6950590776c0960637c4d5e78bb",
+            "reason": "no_test_run"
+          },
+          {
+            "repo": "RepoWatch",
+            "sha": "3e3e6647",
+            "message_summary": "Scaffold RepoWatch: Tier 1 checks, CLI, tests, Bob prompts for Tier 2",
+            "url": "https://github.com/axxess-triaxis/RepoWatch/commit/3e3e66471964c2796bb8e23561e509449b3545de",
+            "reason": "no_test_run"
+          }
+        ],
+        "error": null
       },
       "pii": {
         "repo": "RepoWatch",
-        "findings": [],
-        "files_scanned": 0,
-        "error": "gh api repos/axxess-triaxis/RepoWatch/git/trees/main -X GET -f recursive=true failed: gh: Git Repository is empty. (HTTP 409)"
+        "findings": [
+          {
+            "repo": "RepoWatch",
+            "path": "tests/test_checks.py",
+            "kind": "email",
+            "masked_excerpt": "re*******************om",
+            "likely_benign": true
+          }
+        ],
+        "files_scanned": 20,
+        "error": null
       }
     },
     {
@@ -249,6 +273,7 @@
           }
         ],
         "access_denied": false,
+        "dependabot_disabled": false,
         "error": null
       },
       "stale_prs": {
@@ -470,7 +495,8 @@
       "dependabot": {
         "repo": "GALL-e-LEO",
         "findings": [],
-        "access_denied": true,
+        "access_denied": false,
+        "dependabot_disabled": true,
         "error": null
       },
       "stale_prs": {
@@ -523,7 +549,8 @@
       "dependabot": {
         "repo": "arc-agi-benchmarking",
         "findings": [],
-        "access_denied": true,
+        "access_denied": false,
+        "dependabot_disabled": true,
         "error": null
       },
       "stale_prs": {
@@ -702,7 +729,8 @@
       "dependabot": {
         "repo": "ARC-AGI-3-Agents",
         "findings": [],
-        "access_denied": true,
+        "access_denied": false,
+        "dependabot_disabled": true,
         "error": null
       },
       "stale_prs": {
@@ -888,7 +916,8 @@
       "dependabot": {
         "repo": "CopperNick-Vision",
         "findings": [],
-        "access_denied": true,
+        "access_denied": false,
+        "dependabot_disabled": true,
         "error": null
       },
       "stale_prs": {
@@ -1018,7 +1047,8 @@
       "dependabot": {
         "repo": "Omnidamus",
         "findings": [],
-        "access_denied": true,
+        "access_denied": false,
+        "dependabot_disabled": true,
         "error": null
       },
       "stale_prs": {
@@ -1085,7 +1115,8 @@
       "dependabot": {
         "repo": "callismatic",
         "findings": [],
-        "access_denied": true,
+        "access_denied": false,
+        "dependabot_disabled": true,
         "error": null
       },
       "stale_prs": {
@@ -1397,7 +1428,8 @@
       "dependabot": {
         "repo": "awesome-phone-call-agents",
         "findings": [],
-        "access_denied": true,
+        "access_denied": false,
+        "dependabot_disabled": true,
         "error": null
       },
       "stale_prs": {
@@ -1625,7 +1657,8 @@
       "dependabot": {
         "repo": "Picketty",
         "findings": [],
-        "access_denied": true,
+        "access_denied": false,
+        "dependabot_disabled": true,
         "error": null
       },
       "stale_prs": {
@@ -1755,7 +1788,8 @@
       "dependabot": {
         "repo": "arc-agi-3-benchmarking",
         "findings": [],
-        "access_denied": true,
+        "access_denied": false,
+        "dependabot_disabled": true,
         "error": null
       },
       "stale_prs": {
@@ -1948,7 +1982,8 @@
       "dependabot": {
         "repo": "triaxis-ventures",
         "findings": [],
-        "access_denied": true,
+        "access_denied": false,
+        "dependabot_disabled": true,
         "error": null
       },
       "stale_prs": {
@@ -1986,7 +2021,8 @@
       "dependabot": {
         "repo": "codespaces-react",
         "findings": [],
-        "access_denied": true,
+        "access_denied": false,
+        "dependabot_disabled": true,
         "error": null
       },
       "stale_prs": {
@@ -2024,7 +2060,8 @@
       "dependabot": {
         "repo": "codespaces-blank",
         "findings": [],
-        "access_denied": true,
+        "access_denied": false,
+        "dependabot_disabled": true,
         "error": null
       },
       "stale_prs": {

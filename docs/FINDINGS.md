@@ -21,11 +21,17 @@ synthetic/sample dataset. Full raw output: [`repowatch_report.json`](repowatch_r
   runs. For research/fork repos (the ARC-AGI forks, `awesome-phone-call-
   agents`) this is expected and not concerning — they have no UI test
   suite by design. For product repos it's a real signal.
-- **Dependabot access**: only worked for AXXESSTRIAXIS; every other repo
-  returned "access denied" under the current token scope
-  (`security_events` not yet granted). RepoWatch reports this explicitly
-  rather than showing a false "clean" result — see README's limitations
-  section.
+- **Dependabot coverage: only 1 of 14 repos has it enabled at all.** After
+  granting the token the `security_events` scope, the real picture is
+  clearer and more concerning than an access problem: AXXESSTRIAXIS has
+  Dependabot alerts turned on (and 28 open); every other repo returns
+  "Dependabot alerts are disabled for this repository" — a per-repo GitHub
+  setting nobody ever flipped on. That's not "13 clean repos," it's
+  **13 repos with zero automated vulnerability visibility**, indistinguishable
+  from a real 403 until RepoWatch's check specifically separates the two
+  (see the dependabot.py fix in this repo's own commit history — the same
+  HTTP 403 covers both cases, and conflating them would have hidden this
+  finding entirely).
 
 ## A documented false positive, on purpose
 
