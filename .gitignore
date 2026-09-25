@@ -13,6 +13,8 @@ dist/
 .vscode/
 .idea/
 
-# Local scratch outputs -- not the real committed dogfooding report in docs/
-repowatch_report.json
-repowatch_report.html
+# Local scratch outputs from ad hoc runs -- the real, committed dogfooding
+# report lives at docs/repowatch_report.{json,html} (tracked deliberately,
+# not excluded by this pattern since it's anchored to the repo root).
+/repowatch_report.json
+/repowatch_report.html
