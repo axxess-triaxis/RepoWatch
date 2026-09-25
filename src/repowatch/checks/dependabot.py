@@ -29,6 +29,7 @@ class DependabotResult:
     repo: str
     findings: list[DependabotFinding] = field(default_factory=list)
     access_denied: bool = False
+    dependabot_disabled: bool = False
     error: str | None = None
 
 
@@ -43,10 +44,19 @@ def check(org: str, repo: str) -> DependabotResult:
             ["api", f"repos/{org}/{repo}/dependabot/alerts", "--paginate"]
         )
     except GhError as e:
-        if "403" in str(e) or "Forbidden" in str(e):
+        message = str(e)
+        # Both cases return HTTP 403, but they're materially different
+        # findings: "disabled for this repository" means the feature was
+        # never turned on (no alerts exist to read, at all) -- a real
+        # governance gap worth its own flag, not a permission problem.
+        # A generic 403 without that phrase means the token genuinely
+        # lacks access, and reporting the repo as "clean" would be wrong.
+        if "disabled for this repository" in message:
+            result.dependabot_disabled = True
+        elif "403" in message or "Forbidden" in message:
             result.access_denied = True
         else:
-            result.error = str(e)
+            result.error = message
         return result
 
     if not alerts:
