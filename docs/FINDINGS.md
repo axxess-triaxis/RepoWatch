@@ -46,5 +46,19 @@ precision, not a cherry-picked clean run.
 
 ## Tier 2 (Bob-driven) findings
 
-Pending — run via Bob IDE per [`BOB_PROMPTS.md`](BOB_PROMPTS.md), results to
-be appended here once complete.
+### Plan-before-ship audit (1 of 3 complete)
+
+Run via IBM Bob 2.0, Agent mode, against `axxess-triaxis/AXXESSTRIAXIS`'s
+last 15 merged PRs. Full table: [`findings/plan_before_ship.md`](findings/plan_before_ship.md).
+
+**4 of 5 human-authored PRs (80%) show real pre-implementation planning
+evidence** (cross-references to a pre-existing ledger item, a decision
+sequence spanning prior PRs) — the other 10 of 15 are Dependabot auto-bumps
+with no planning expected. The one gap: **#363**, a reactive hotfix for a
+macOS CI failure (darwin/sharp architecture support) shipped with no issue,
+design doc, or pre-branch decision record — a real, specific instance of
+exactly the failure mode this hackathon's challenge brief describes, caught
+by Bob reading actual PR/commit content, not a keyword match.
+
+Spaghetti/inflated-diff judgment and HITL-outsourcing detection: pending,
+prompts 2 and 3 in [`BOB_PROMPTS.md`](BOB_PROMPTS.md).
