@@ -60,5 +60,20 @@ design doc, or pre-branch decision record — a real, specific instance of
 exactly the failure mode this hackathon's challenge brief describes, caught
 by Bob reading actual PR/commit content, not a keyword match.
 
-Spaghetti/inflated-diff judgment and HITL-outsourcing detection: pending,
-prompts 2 and 3 in [`BOB_PROMPTS.md`](BOB_PROMPTS.md).
+### Spaghetti / inflated-diff audit (2 of 3 complete)
+
+Run via IBM Bob 2.0, Agent mode, against the same 10 most recent merged PRs.
+Full detail: [`findings/spaghetti_audit.md`](findings/spaghetti_audit.md).
+
+**No classical spaghetti found** — worth stating plainly, since a tool that
+always finds something to flag isn't trustworthy. 3 of 10 PRs flagged, all
+in narrower, real categories: PR #362 bundles 4 distinct inflations (34
+lines of incident-report prose inside a 72-line function, 48 lines of tests
+that assert on source text rather than behavior, an unrelated doc
+correction folded into a bugfix PR, and ~390 undisclosed lockfile lines from
+a new native dependency); #363 has an 11-line comment block around a
+1-line config fix; #353 ("bump input-otp") actually changed 75 lockfile
+lines, 73 of them from an unrelated transitive `terser` resolution shift the
+PR title never mentions.
+
+HITL-outsourcing detection: pending, prompt 3 in [`BOB_PROMPTS.md`](BOB_PROMPTS.md).
