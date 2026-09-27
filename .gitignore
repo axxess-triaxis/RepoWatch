@@ -18,3 +18,8 @@ dist/
 # not excluded by this pattern since it's anchored to the repo root).
 /repowatch_report.json
 /repowatch_report.html
+
+# Build inputs for the submission assets -- the rendered deliverables
+# (docs/cover.jpg, docs/repowatch-slides.pdf) are what's tracked; this is
+# the raw HTML source used to render them via headless Chrome.
+/cover-artboard/
