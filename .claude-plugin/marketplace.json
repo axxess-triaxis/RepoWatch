@@ -1,0 +1,14 @@
+{
+  "name": "repowatch",
+  "description": "RepoWatch - GitHub org governance audits for Claude Code.",
+  "owner": {
+    "name": "Triaxis Ventures"
+  },
+  "plugins": [
+    {
+      "name": "repowatch",
+      "source": "./",
+      "description": "Audit a GitHub org for open Dependabot alerts, untested deploys, stale PRs, unresolved-conflict merges, exposed PII, and repo sprawl."
+    }
+  ]
+}
