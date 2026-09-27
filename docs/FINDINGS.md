@@ -76,4 +76,23 @@ a new native dependency); #363 has an 11-line comment block around a
 lines, 73 of them from an unrelated transitive `terser` resolution shift the
 PR title never mentions.
 
-HITL-outsourcing detection: pending, prompt 3 in [`BOB_PROMPTS.md`](BOB_PROMPTS.md).
+### HITL-outsourcing audit (3 of 3 complete)
+
+Run via IBM Bob 2.0, Agent mode, against the same 15 PRs as the
+plan-before-ship audit. Full detail: [`findings/hitl_audit.md`](findings/hitl_audit.md).
+
+**5 of 5 human-authored PRs show human-reviewed decisions; 10 of 10
+automated PRs correctly excluded rather than force-classified**, with one
+flagged gap: PR #359, a major-version native-dependency bump merged with no
+recorded human review of its breaking API surface.
+
+The sharpest finding is self-referential: **every "human-reviewed" verdict
+rests on the AI's own written account of what the founder decided** (commit
+bodies attributing decisions to the founder), not an independently
+verifiable record — no PR review thread, no approval comment. The one
+unambiguously verifiable human action in the whole window is a credentialed
+App Store Connect submission an AI cannot perform. A tool built to catch
+AI-outsourced judgment calls has to be honest that its own HITL-confirmation
+signal has the same limitation.
+
+**All three Tier 2 checks are now complete.**
