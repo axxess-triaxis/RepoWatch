@@ -1,5 +1,7 @@
 # RepoWatch
 
+![RepoWatch: repo governance, audit, vigilance](assets/repowatch-banner.png)
+
 RepoWatch audits a GitHub org for the failure modes AI-assisted teams actually hit, not the ones a generic linter checks for. AI coding agents make it cheap to ship a lot, fast. They don't make it cheap to notice when that has quietly turned into:
 
 - unreviewed security vulnerabilities
