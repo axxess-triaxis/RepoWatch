@@ -1,0 +1,14 @@
+{
+  "name": "repowatch",
+  "displayName": "RepoWatch",
+  "version": "0.1.0",
+  "description": "Audit a GitHub org for the failure modes AI-assisted teams actually hit: unreviewed vulnerabilities, untested deploys, stale PRs, unresolved-conflict merges, exposed PII, and repo sprawl.",
+  "author": {
+    "name": "Triaxis Ventures"
+  },
+  "homepage": "https://github.com/axxess-triaxis/RepoWatch",
+  "repository": "https://github.com/axxess-triaxis/RepoWatch",
+  "license": "MIT",
+  "keywords": ["github", "governance", "security", "code-review", "ibm-bob-hackathon"],
+  "defaultEnabled": true
+}

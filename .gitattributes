@@ -1,0 +1,4 @@
+# Shell scripts must keep LF line endings regardless of the checkout
+# platform's autocrlf setting -- a CRLF-mangled shebang ("#!/bin/bash\r")
+# fails to execute on Linux/macOS.
+bin/* text eol=lf
