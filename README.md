@@ -43,6 +43,20 @@ Scope to specific repos instead of the whole org:
 repowatch axxess-triaxis --repos GALL-e-LEO CopperNick-Vision
 ```
 
+### As a Claude Code plugin
+
+This repo is also a Claude Code plugin -- load it and run the audit as a
+slash command instead of a separate CLI install:
+
+```bash
+claude --plugin-dir /path/to/RepoWatch
+```
+
+Then in the session: `/repowatch axxess-triaxis`. Claude runs the real
+audit via the Bash tool and summarizes the findings in the conversation
+instead of just pointing at a file. See `.claude-plugin/plugin.json`,
+`bin/repowatch`, and `commands/repowatch.md`.
+
 ## Real findings
 
 Dogfooded against the `axxess-triaxis` GitHub org (13 real repos, not a
