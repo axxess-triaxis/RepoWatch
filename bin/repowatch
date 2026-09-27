@@ -1,9 +1,0 @@
-#!/bin/bash
-# RepoWatch CLI wrapper for the Claude Code plugin.
-#
-# Resolves the package source relative to this script (bin/../src) and adds
-# it to PYTHONPATH, so the command works from a fresh plugin install without
-# requiring a separate `pip install -e .` in the invoking environment first.
-set -euo pipefail
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PYTHONPATH="$SCRIPT_DIR/../src:${PYTHONPATH:-}" exec python3 -m repowatch.cli "$@"
