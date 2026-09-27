@@ -26,6 +26,7 @@ def main() -> int:
 
     json_path = Path(f"{args.out}.json")
     html_path = Path(f"{args.out}.html")
+    json_path.parent.mkdir(parents=True, exist_ok=True)
     write_json(report, json_path)
     write_html(report, html_path)
 
