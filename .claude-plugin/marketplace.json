@@ -1,0 +1,16 @@
+{
+  "name": "repowatch",
+  "owner": {
+    "name": "Triaxis Ventures"
+  },
+  "metadata": {
+    "description": "RepoWatch: GitHub org governance audits for AI-assisted teams."
+  },
+  "plugins": [
+    {
+      "name": "repowatch",
+      "source": "./",
+      "description": "Audit a GitHub org for the failure modes AI-assisted teams actually hit: unreviewed vulnerabilities, untested deploys, stale PRs, unresolved-conflict merges, exposed PII, and repo sprawl."
+    }
+  ]
+}
