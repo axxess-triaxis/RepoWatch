@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/repowatch-logo-200.png" alt="RepoWatch logo" width="120"></p>
+
 # RepoWatch
 
 **IBM Bob 2.0 Hackathon entry.** An onboarding/governance copilot that audits
