@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/repowatch-logo-200.png" alt="RepoWatch logo" width="120"></p>
+
 # RepoWatch
 
 **IBM Bob 2.0 Hackathon entry.** An onboarding/governance copilot that audits
@@ -45,8 +47,21 @@ repowatch axxess-triaxis --repos GALL-e-LEO CopperNick-Vision
 
 ### As a Claude Code plugin
 
-This repo is also a Claude Code plugin -- load it and run the audit as a
+This repo is also a Claude Code plugin -- install it and run the audit as a
 slash command instead of a separate CLI install:
+
+```
+/plugin install repowatch --marketplace axxess-triaxis/RepoWatch
+```
+
+On Claude Code older than 2.1.275, add the marketplace first:
+
+```
+/plugin marketplace add axxess-triaxis/RepoWatch
+/plugin install repowatch@repowatch
+```
+
+Or load a local checkout directly:
 
 ```bash
 claude --plugin-dir /path/to/RepoWatch
