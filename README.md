@@ -6,6 +6,17 @@
 an org's repos for the failure modes AI-assisted teams actually hit, not the
 ones a generic linter checks for.
 
+## Where RepoWatch is now
+
+- Its audit checks carried on in [PORT4LLEO](https://github.com/axxess-triaxis/port4lleo)'s
+  governance audits, which are live at https://port4leo-sigma.vercel.app. PORT4LLEO is the
+  governance product in the Triaxis stack.
+- [repowatch-app](https://github.com/axxess-triaxis/repowatch-app) packages it as a GitHub App
+  that posts a weekly audit issue. Its AWS backend is not deployed yet.
+- The project page is on GitHub Pages: https://axxess-triaxis.github.io/RepoWatch/ (200 on 2026-10-29).
+- Open, not merged: [PR #1](https://github.com/axxess-triaxis/RepoWatch/pull/1), which packages
+  RepoWatch as a Claude plugin for Anthropic's directory.
+
 ## The problem
 
 AI coding agents make it cheap to ship a lot, fast. They don't make it cheap
@@ -74,8 +85,8 @@ instead of just pointing at a file. See `.claude-plugin/plugin.json`,
 
 ## Real findings
 
-Dogfooded against the `axxess-triaxis` GitHub org (13 real repos, not a
-sample dataset) -- see [`docs/FINDINGS.md`](docs/FINDINGS.md) for the actual
+Dogfooded against the `axxess-triaxis` GitHub account (13 real repos at the
+time of the hackathon, not a sample dataset) -- see [`docs/FINDINGS.md`](docs/FINDINGS.md) for the actual
 report, including what it got right and what it flagged as a false positive.
 
 ## Known limitations (honest, not hidden)
